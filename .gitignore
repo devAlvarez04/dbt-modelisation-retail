@@ -5,6 +5,10 @@ target/
 logs/
 #Contient les packages installés par dbt, réinstallables à tout moment
 dbt_packages/
+# Dossier généré par dbt v2, recréé à chaque exécution
+dbt_internal_packages/
+# Connexion à l'entrepôt : normalement dans ~/.dbt/, ne doit jamais être publiée (projet, dataset, éventuel chemin vers une clé)
+profiles.yml
 
 #Bigquery
 #Secret base de données 
