@@ -1,0 +1,11 @@
+name: dbt_modelisation_retail
+
+profile: dbt_modelisation_retail
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
