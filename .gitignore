@@ -1,0 +1,14 @@
+# DBT
+# Fichiers générés automatiquement à chaque exécution de dbt
+target/
+# Fichiers contenant les journaux d'exécution de dbt, régénérés à chaque exécution
+logs/
+#Contient les packages installés par dbt, réinstallables à tout moment
+dbt_packages/
+
+#Bigquery
+#Secret base de données 
+*.json
+
+#Environment de development : contient les variables d'environnement pour le projet dbt, contient les secrets de la machine
+.env
